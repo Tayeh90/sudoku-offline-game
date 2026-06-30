@@ -585,7 +585,7 @@ a { color: inherit; text-decoration: none; }
 
 /* Gallery */
 .gallery {
-  padding: 88px 0;
+  padding: 88px 0 56px;
   background: var(--card);
 }
 
@@ -612,13 +612,13 @@ a { color: inherit; text-decoration: none; }
 
 /* CTA */
 .cta {
-  padding: 40px 0 88px;
+  padding: 48px 0 32px;
 }
 
 .cta__banner {
   background: var(--gradient-cta);
   border-radius: var(--radius-lg);
-  padding: 52px 28px;
+  padding: 40px 24px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -651,18 +651,21 @@ a { color: inherit; text-decoration: none; }
 .cta__subtitle {
   color: rgba(255, 255, 255, 0.88);
   font-size: 1.05rem;
-  margin-top: 12px;
+  margin: 12px auto 0;
   max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
+}
+
+.cta .store-buttons {
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 /* Footer */
 .footer {
   background: #0f1528;
   color: rgba(255, 255, 255, 0.75);
-  padding: 48px 0 32px;
+  padding: 40px 0 28px;
 }
 
 .footer__inner {
