@@ -85,9 +85,32 @@
 
         <div class="hero__visual">
           <div class="hero__glow" aria-hidden="true"></div>
-          <div class="phone-frame">
-            <div class="phone-frame__screen">
-              <img src="assets/screenshot-2.png" alt="Sudoku Offline Classic Puzzle gameplay with smart highlighting" width="280" height="607">
+          <div class="hero-carousel" id="heroCarousel" aria-label="App screenshots">
+            <div class="phone-frame">
+              <div class="phone-frame__screen phone-frame__screen--carousel">
+                <div class="hero-carousel__slide is-active">
+                  <img src="assets/screenshot-1.png" alt="Play Sudoku anywhere offline" width="280" height="498">
+                </div>
+                <div class="hero-carousel__slide">
+                  <img src="assets/screenshot-2.png" alt="Smart highlighting for calm focus" width="280" height="498">
+                </div>
+                <div class="hero-carousel__slide">
+                  <img src="assets/screenshot-3.png" alt="Train your brain daily" width="280" height="498">
+                </div>
+                <div class="hero-carousel__slide">
+                  <img src="assets/screenshot-4.png" alt="Notes, undo and hints" width="280" height="498">
+                </div>
+                <div class="hero-carousel__slide">
+                  <img src="assets/screenshot-5.png" alt="Offline Sudoku gameplay" width="280" height="498">
+                </div>
+              </div>
+            </div>
+            <div class="hero-carousel__dots" role="tablist" aria-label="Screenshot navigation">
+              <button type="button" class="hero-carousel__dot is-active" aria-label="Screenshot 1" aria-selected="true"></button>
+              <button type="button" class="hero-carousel__dot" aria-label="Screenshot 2" aria-selected="false"></button>
+              <button type="button" class="hero-carousel__dot" aria-label="Screenshot 3" aria-selected="false"></button>
+              <button type="button" class="hero-carousel__dot" aria-label="Screenshot 4" aria-selected="false"></button>
+              <button type="button" class="hero-carousel__dot" aria-label="Screenshot 5" aria-selected="false"></button>
             </div>
           </div>
         </div>
