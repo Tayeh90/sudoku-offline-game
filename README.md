@@ -49,6 +49,8 @@ https://sudoku-offline-game.pages.dev/download.html
 
 On **iPhone/iPad**, visitors are sent to the App Store automatically. On **Android**, they are sent to Google Play. On desktop or if auto-redirect does not work, they can choose manually.
 
+The download page includes a live **page visit counter** (one count per browser session per visit).
+
 ## Store links
 
 - **Apple App Store:** https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803

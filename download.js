@@ -87,4 +87,36 @@
 
     startAutoplay();
   }
+
+  var visitCountEl = document.getElementById('visitCount');
+  var COUNTER_API = 'https://api.counterapi.dev/v1/electraglobe-sudoku/download-page';
+  var SESSION_KEY = 'sudoku-download-visit-tracked';
+
+  function showVisitCount(count) {
+    if (visitCountEl && typeof count === 'number') {
+      visitCountEl.textContent = count.toLocaleString();
+    }
+  }
+
+  function trackPageVisit() {
+    if (!visitCountEl) return;
+
+    var endpoint = sessionStorage.getItem(SESSION_KEY) ? COUNTER_API + '/' : COUNTER_API + '/up';
+
+    fetch(endpoint)
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        if (data && typeof data.count === 'number') {
+          if (!sessionStorage.getItem(SESSION_KEY)) {
+            sessionStorage.setItem(SESSION_KEY, '1');
+          }
+          showVisitCount(data.count);
+        }
+      })
+      .catch(function () {
+        if (visitCountEl) visitCountEl.textContent = '—';
+      });
+  }
+
+  trackPageVisit();
 })();

@@ -1145,6 +1145,38 @@ a { color: inherit; text-decoration: none; }
   text-align: center;
 }
 
+.download__counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding: 8px 14px;
+  border-radius: 50px;
+  background: rgba(124, 58, 237, 0.08);
+  border: 1px solid rgba(124, 58, 237, 0.12);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.download__counter strong {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.download__counter-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
 .download__footer a {
   color: var(--text-muted);
   font-weight: 500;
