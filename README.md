@@ -80,5 +80,5 @@ Then open `http://localhost:8080`.
     ├── apple-touch-icon.png
     ├── og-image.png
     ├── app-store-badge.svg
-    └── google-play-badge.svg
+    └── google-play-badge.png
 ```
