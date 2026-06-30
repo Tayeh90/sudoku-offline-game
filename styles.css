@@ -434,7 +434,7 @@ a { color: inherit; text-decoration: none; }
 
 /* Features */
 .features {
-  padding: 88px 0;
+  padding: 88px 0 48px;
   background: var(--card);
 }
 
@@ -585,7 +585,7 @@ a { color: inherit; text-decoration: none; }
 
 /* Gallery */
 .gallery {
-  padding: 88px 0 56px;
+  padding: 88px 0;
   background: var(--card);
 }
 
@@ -612,7 +612,8 @@ a { color: inherit; text-decoration: none; }
 
 /* CTA */
 .cta {
-  padding: 48px 0 32px;
+  padding: 16px 0 56px;
+  background: var(--card);
 }
 
 .cta__banner {
