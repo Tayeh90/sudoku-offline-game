@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku Offline Classic Puzzle - Play Sudoku Anytime</title>
+  <meta name="description" content="Play Sudoku offline anywhere with classic number puzzles, smart highlighting, hints, notes, undo, erase, and difficulty levels from easy to expert.">
+  <meta name="keywords" content="sudoku, sudoku offline, sudoku puzzle, classic sudoku, number puzzle, logic game, brain training, offline game, sudoku app">
+  <meta name="author" content="ELECTRAGLOBE PTY LTD">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sudoku-offline-game.pages.dev/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sudoku Offline Classic Puzzle">
+  <meta property="og:description" content="Play classic Sudoku offline anytime with smart highlighting, hints, notes, and easy to expert difficulty levels.">
+  <meta property="og:url" content="https://sudoku-offline-game.pages.dev">
+  <meta property="og:image" content="https://sudoku-offline-game.pages.dev/assets/og-image.png">
+  <meta property="og:site_name" content="Sudoku Offline Classic Puzzle">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sudoku Offline Classic Puzzle">
+  <meta name="twitter:description" content="Play classic Sudoku offline anytime with smart highlighting, hints, notes, and easy to expert difficulty levels.">
+  <meta name="twitter:image" content="https://sudoku-offline-game.pages.dev/assets/og-image.png">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Sudoku Offline Classic Puzzle home">
+        <img src="assets/logo.png" alt="Sudoku Offline Classic Puzzle logo" class="logo__img" width="40" height="40">
+        <span class="logo__text">Sudoku Offline Classic</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation">
+        <a href="index.html" class="nav__link nav__link--active">Home</a>
+        <a href="#features" class="nav__link">Features</a>
+        <a href="#download" class="nav__link">Download</a>
+        <a href="privacy.html" class="nav__link">Privacy</a>
+        <a href="support.html" class="nav__link">Support</a>
+      </nav>
+
+      <a href="#download" class="btn btn--gradient btn--sm header__cta">Download Now</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <h1 id="hero-heading" class="hero__title">
+            Relax with Classic Sudoku, <span class="gradient-text">Anytime</span>
+          </h1>
+          <p class="hero__subtitle">
+            Play Sudoku offline with clean number puzzles, smart highlighting, hints, notes, and levels from easy to expert.
+          </p>
+
+          <div class="store-buttons">
+            <a href="https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803" class="store-btn" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+              <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en" class="store-btn" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
+              <img src="assets/google-play-badge.svg" alt="Get it on Google Play" width="176" height="52">
+            </a>
+          </div>
+
+          <div class="chips">
+            <span class="chip"><span class="chip__dot"></span>100% Offline</span>
+            <span class="chip"><span class="chip__dot"></span>Easy to Expert</span>
+            <span class="chip"><span class="chip__dot"></span>Hints &amp; Notes</span>
+            <span class="chip"><span class="chip__dot"></span>Smart Highlighting</span>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__glow" aria-hidden="true"></div>
+          <div class="phone-frame">
+            <div class="phone-frame__screen">
+              <img src="assets/screenshot-2.png" alt="Sudoku Offline Classic Puzzle gameplay with smart highlighting" width="280" height="607">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <h2 id="features-heading" class="section-title">Everything you need for the perfect Sudoku experience</h2>
+
+        <div class="features__grid">
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--purple" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 14c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="6" y1="22" x2="22" y2="6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="feature-card__title">Offline Sudoku</h3>
+            <p class="feature-card__text">Play without Wi-Fi or internet connection.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--orange" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="4" y="16" width="5" height="8" rx="1" fill="currentColor"/><rect x="11" y="10" width="5" height="14" rx="1" fill="currentColor"/><rect x="18" y="4" width="5" height="20" rx="1" fill="currentColor"/></svg>
+            </div>
+            <h3 class="feature-card__title">Difficulty Levels</h3>
+            <p class="feature-card__text">Choose Easy, Medium, Hard, or Expert.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--green" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="14" r="4" fill="currentColor"/></svg>
+            </div>
+            <h3 class="feature-card__title">Smart Highlighting</h3>
+            <p class="feature-card__text">Highlight matching numbers to spot patterns faster.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--blue" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 22l16-10-6-2-2-6-10 16z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="feature-card__title">Hints &amp; Notes</h3>
+            <p class="feature-card__text">Use hints when stuck and notes to track possible numbers.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--indigo" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M10 14a4 4 0 018 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M8 20h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="feature-card__title">Undo &amp; Erase</h3>
+            <p class="feature-card__text">Fix mistakes quickly and keep the board clean.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon feature-card__icon--pink" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 4c-3 4-8 6-8 12a8 8 0 0016 0c0-6-5-8-8-12z" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <h3 class="feature-card__title">Relaxing Brain Training</h3>
+            <p class="feature-card__text">Enjoy a calm logic puzzle experience every day.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="experience__card">
+          <div class="experience__visual" aria-hidden="true">
+            <div class="experience__board">
+              <div class="mini-sudoku">
+                <span class="hl">5</span><span>3</span><span></span>
+                <span>6</span><span class="hl">8</span><span></span>
+                <span></span><span></span><span class="hl">8</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2 id="experience-heading" class="experience__title">Designed for calm focus</h2>
+            <p class="experience__text">
+              Sudoku Offline Classic Puzzle is designed for players who enjoy classic number puzzles, logic games, relaxing brain training, and simple offline gameplay. Whether you have a few minutes or want a deeper challenge, you can open the app and start solving instantly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="preview" id="preview" aria-labelledby="preview-heading">
+      <div class="container">
+        <h2 id="preview-heading" class="section-title">Simple, clean, and easy to play</h2>
+        <p class="section-subtitle">A polished Sudoku experience with smart tools, calm themes, and difficulty levels for every player.</p>
+
+        <div class="preview__grid">
+          <div class="preview-item">
+            <div class="phone-frame phone-frame--gallery">
+              <div class="phone-frame__screen">
+                <img src="assets/screenshot-1.png" alt="Classic Sudoku board gameplay" loading="lazy" width="240" height="520">
+              </div>
+            </div>
+            <p class="preview-item__caption">Classic Sudoku board</p>
+            <p class="preview-item__sub">Clean grid with clear numbers</p>
+          </div>
+
+          <div class="preview-item">
+            <div class="phone-frame phone-frame--gallery">
+              <div class="phone-frame__screen">
+                <img src="assets/screenshot-4.png" alt="Notes and hints in Sudoku" loading="lazy" width="240" height="520">
+              </div>
+            </div>
+            <p class="preview-item__caption">Notes and hints</p>
+            <p class="preview-item__sub">Helpful tools when you need them</p>
+          </div>
+
+          <div class="preview-item">
+            <div class="phone-frame phone-frame--gallery">
+              <div class="phone-frame__screen">
+                <img src="assets/screenshot-5.png" alt="Easy to expert difficulty levels" loading="lazy" width="240" height="520">
+              </div>
+            </div>
+            <p class="preview-item__caption">Easy to expert levels</p>
+            <p class="preview-item__sub">Progress at your own pace</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+        <h2 id="gallery-heading" class="section-title">App gallery</h2>
+        <p class="section-subtitle">Explore screenshots from Sudoku Offline Classic Puzzle. Tap any image to view it larger.</p>
+
+        <div class="gallery__grid">
+          <figure class="gallery__item">
+            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-1.png" data-alt="Play Sudoku anywhere offline" role="button" tabindex="0" aria-label="View screenshot: Play anywhere">
+              <div class="phone-frame__screen">
+                <img src="assets/screenshot-1.png" alt="Play Sudoku anywhere offline" loading="lazy" width="240" height="520">
+              </div>
+            </div>
+            <figcaption>Play anywhere</figcaption>
+          </figure>
+
+          <figure class="gallery__item">
+            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-2.png" data-alt="Smart highlighting for calm focus" role="button" tabindex="0" aria-label="View screenshot: Smart highlighting">
+              <div class="phone-frame__screen">
+                <img src="assets/screenshot-2.png" alt="Smart highlighting for calm focus" loading="lazy" width="240" height="520">
+              </div>
+            </div>
+            <figcaption>Smart highlighting</figcaption>
+          </figure>
+
+          <figure class="gallery__item">
+            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-3.png" data-alt="Train your brain daily" role="button" tabindex="0" aria-label="View screenshot: Brain training">
+              <div class="phone-frame__screen">
+                <img src="assets/screenshot-3.png" alt="Train your brain daily" loading="lazy" width="240" height="520">
+              </div>
+            </div>
+            <figcaption>Brain training</figcaption>
+          </figure>
+
+          <figure class="gallery__item">
+            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-4.png" data-alt="Notes, undo and hints" role="button" tabindex="0" aria-label="View screenshot: Notes and hints">
+              <div class="phone-frame__screen">
+                <img src="assets/screenshot-4.png" alt="Notes, undo and hints" loading="lazy" width="240" height="520">
+              </div>
+            </div>
+            <figcaption>Notes &amp; hints</figcaption>
+          </figure>
+
+          <figure class="gallery__item">
+            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-5.png" data-alt="Offline Sudoku gameplay" role="button" tabindex="0" aria-label="View screenshot: Offline play">
+              <div class="phone-frame__screen">
+                <img src="assets/screenshot-5.png" alt="Offline Sudoku gameplay" loading="lazy" width="240" height="520">
+              </div>
+            </div>
+            <figcaption>Offline play</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="download" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta__banner">
+          <h2 id="cta-heading" class="cta__title">
+            Start your next <span class="cta__highlight">Sudoku puzzle</span> today.
+          </h2>
+          <p class="cta__subtitle">Download Sudoku Offline Classic Puzzle and enjoy relaxing number puzzles anytime.</p>
+          <div class="store-buttons store-buttons--center">
+            <a href="https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803" class="store-btn" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+              <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="156" height="52">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en" class="store-btn" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
+              <img src="assets/google-play-badge.svg" alt="Get it on Google Play" width="176" height="52">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="" width="36" height="36">
+        <span>Sudoku Offline Classic</span>
+      </div>
+      <div class="footer__info">
+        <p>&copy; 2026 ELECTRAGLOBE PTY LTD. All rights reserved.</p>
+        <p>Developer: <a href="https://electraglobe.com/" target="_blank" rel="noopener noreferrer">ELECTRAGLOBE PTY LTD</a></p>
+        <p>15/218 Padstow Rd, Eight Mile Plains QLD 4113, Australia</p>
+      </div>
+      <div class="footer__links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="support.html">Support</a>
+        <a href="mailto:Info@lwf.my">Info@lwf.my</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot preview">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close preview">&times;</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
