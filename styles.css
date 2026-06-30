@@ -951,7 +951,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .download__header {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .download__logo-wrap {
@@ -994,11 +994,14 @@ a { color: inherit; text-decoration: none; }
 }
 
 .download__preview {
-  margin: 8px auto 20px;
+  margin: 0 auto 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(18, 26, 53, 0.06);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
+  width: 100%;
 }
 
 .phone-frame--download {
@@ -1024,7 +1027,7 @@ a { color: inherit; text-decoration: none; }
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .download__perk {
@@ -1075,7 +1078,7 @@ a { color: inherit; text-decoration: none; }
   flex-direction: column;
   align-items: stretch;
   gap: 12px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .download__store-btn {
@@ -1114,7 +1117,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 0.8rem;
   color: var(--text-muted);
   line-height: 1.5;
-  margin: 0 0 20px;
+  margin: 0 0 8px;
 }
 
 .download__home {
