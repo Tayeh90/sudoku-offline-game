@@ -29,12 +29,47 @@
 </head>
 <body class="download-page">
 
+  <div class="download__bg" aria-hidden="true">
+    <span class="download__blob download__blob--1"></span>
+    <span class="download__blob download__blob--2"></span>
+  </div>
+
   <main class="download">
     <div class="download__card">
-      <img src="assets/logo.png" alt="Sudoku Offline Classic Puzzle" class="download__logo" width="96" height="96">
+      <div class="download__header">
+        <div class="download__logo-wrap">
+          <img src="assets/logo.png" alt="Sudoku Offline Classic Puzzle" class="download__logo" width="88" height="88">
+        </div>
+        <h1 class="download__title">Sudoku Offline Classic</h1>
+        <p class="download__tagline">Relax with classic Sudoku, <span class="gradient-text">anytime</span> — 100% offline.</p>
+      </div>
 
-      <h1 class="download__title">Sudoku Offline Classic Puzzle</h1>
-      <p class="download__tagline">Relax with classic Sudoku, anytime — 100% offline.</p>
+      <div class="download__preview" id="downloadCarousel" aria-label="App preview">
+        <div class="phone-frame phone-frame--download">
+          <div class="phone-frame__screen phone-frame__screen--carousel">
+            <div class="hero-carousel__slide is-active">
+              <img src="assets/screenshot-2.png" alt="Smart highlighting" width="220" height="391">
+            </div>
+            <div class="hero-carousel__slide">
+              <img src="assets/screenshot-1.png" alt="Play anywhere offline" width="220" height="391">
+            </div>
+            <div class="hero-carousel__slide">
+              <img src="assets/screenshot-4.png" alt="Notes and hints" width="220" height="391">
+            </div>
+          </div>
+        </div>
+        <div class="download__dots hero-carousel__dots" aria-hidden="true">
+          <span class="hero-carousel__dot is-active"></span>
+          <span class="hero-carousel__dot"></span>
+          <span class="hero-carousel__dot"></span>
+        </div>
+      </div>
+
+      <div class="download__perks">
+        <span class="download__perk">100% Offline</span>
+        <span class="download__perk">Easy to Expert</span>
+        <span class="download__perk">Hints &amp; Notes</span>
+      </div>
 
       <div class="download__status" id="downloadStatus" aria-live="polite">
         <span class="download__spinner" id="downloadSpinner" hidden aria-hidden="true"></span>
@@ -42,23 +77,28 @@
       </div>
 
       <div class="download__stores">
-        <a href="https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803" class="download__store-link download__store-link--apple" id="appStoreLink" target="_blank" rel="noopener noreferrer">
+        <a href="https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803" class="download__store-btn download__store-btn--apple" id="appStoreLink" target="_blank" rel="noopener noreferrer">
           <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="140" height="47">
-          <span>iPhone &amp; iPad</span>
+          <span class="download__store-label">iPhone &amp; iPad</span>
         </a>
 
-        <a href="https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en" class="download__store-link download__store-link--google" id="playStoreLink" target="_blank" rel="noopener noreferrer">
+        <a href="https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en" class="download__store-btn download__store-btn--google" id="playStoreLink" target="_blank" rel="noopener noreferrer">
           <img src="assets/google-play-badge.png" alt="Get it on Google Play" width="155" height="60">
-          <span>Android</span>
+          <span class="download__store-label">Android</span>
         </a>
       </div>
 
       <p class="download__hint" id="downloadHint">We&apos;ll send you to the right store automatically on mobile.</p>
 
-      <a href="index.html" class="download__home">Visit full website</a>
+      <a href="index.html" class="download__home">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6.5 3L2 8l4.5 5M2 8h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Visit full website
+      </a>
     </div>
 
-    <p class="download__footer">&copy; 2026 ELECTRAGLOBE PTY LTD</p>
+    <footer class="download__footer">
+      <p>&copy; 2026 <a href="https://electraglobe.com/" target="_blank" rel="noopener noreferrer">ELECTRAGLOBE PTY LTD</a></p>
+    </footer>
   </main>
 
   <script src="download.js"></script>
