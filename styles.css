@@ -810,3 +810,159 @@ a { color: inherit; text-decoration: none; }
 @media (min-width: 1100px) {
   .gallery__grid { grid-template-columns: repeat(5, 1fr); }
 }
+
+/* ============================================
+   Smart download page (Instagram / social link)
+   ============================================ */
+
+.download-page {
+  min-height: 100vh;
+  background: var(--bg-soft);
+}
+
+.download {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
+}
+
+.download__card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  border-radius: var(--radius-lg);
+  padding: 40px 28px 32px;
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(18, 26, 53, 0.05);
+}
+
+.download__logo {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  margin: 0 auto 20px;
+  object-fit: cover;
+  box-shadow: var(--shadow-md);
+}
+
+.download__title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+  line-height: 1.25;
+}
+
+.download__tagline {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.download__status {
+  min-height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.download__status-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--purple);
+}
+
+.download__spinner {
+  width: 28px;
+  height: 28px;
+  border: 3px solid rgba(124, 58, 237, 0.15);
+  border-top-color: var(--purple);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.download__stores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.download__store-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  background: var(--bg);
+  border: 1px solid rgba(18, 26, 53, 0.06);
+  width: 100%;
+  max-width: 280px;
+  transition: transform var(--ease), box-shadow var(--ease), border-color var(--ease);
+}
+
+.download__store-link:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(124, 58, 237, 0.2);
+}
+
+.download__store-link span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.download__store-link--apple img { height: 44px; width: auto; }
+.download__store-link--google img { height: 58px; width: auto; }
+
+.download__hint {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.download__home {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--purple);
+  transition: opacity var(--ease);
+}
+
+.download__home:hover { opacity: 0.75; }
+
+.download__footer {
+  margin-top: 24px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+@media (min-width: 480px) {
+  .download__stores {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .download__store-link {
+    width: auto;
+    min-width: 200px;
+  }
+}

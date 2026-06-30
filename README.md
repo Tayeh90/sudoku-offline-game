@@ -34,9 +34,20 @@ Connect the GitHub repository and deploy from the `main` branch.
 ## Pages
 
 - `/` — Landing page
+- `/download.html` — Smart download link (auto-detects iPhone/Android, share on Instagram)
 - `/privacy.html` — Privacy Policy
 - `/support.html` — Support & Contact
 - `/app-ads.txt` — AdMob publisher declaration
+
+### Instagram / social share link
+
+Use this URL in your Instagram bio, stories, or posts:
+
+```
+https://sudoku-offline-game.pages.dev/download.html
+```
+
+On **iPhone/iPad**, visitors are sent to the App Store automatically. On **Android**, they are sent to Google Play. On desktop or if auto-redirect does not work, they can choose manually.
 
 ## Store links
 
@@ -67,10 +78,12 @@ Then open `http://localhost:8080`.
 
 ```
 ├── index.html
+├── download.html       # Smart App Store / Google Play link
 ├── privacy.html
 ├── support.html
 ├── styles.css
 ├── script.js
+├── download.js
 ├── app-ads.txt
 ├── README.md
 └── assets/
