@@ -3,7 +3,7 @@
 
   var APP_STORE = 'https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803';
   var PLAY_STORE = 'https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en';
-  var REDIRECT_DELAY = 1200;
+  var REDIRECT_DELAY = 3000;
 
   var statusText = document.getElementById('downloadStatusText');
   var spinner = document.getElementById('downloadSpinner');
