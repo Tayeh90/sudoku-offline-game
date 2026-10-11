@@ -3,335 +3,289 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sudoku Offline Classic Puzzle - Play Sudoku Anytime</title>
-  <meta name="description" content="Play Sudoku offline anywhere with classic number puzzles, smart highlighting, hints, notes, undo, erase, and difficulty levels from easy to expert.">
-  <meta name="keywords" content="sudoku, sudoku offline, sudoku puzzle, classic sudoku, number puzzle, logic game, brain training, offline game, sudoku app">
+  <title>Sudoku Offline Classic Puzzle – Classic Sudoku &amp; ZooDoku Animal Sudoku</title>
+  <meta name="description" content="Play Sudoku 100% offline. Classic 9x9 Sudoku from Easy to Expert, plus ZooDoku: Sudoku with cute animals from 20 cities around the world. Hints that teach, daily challenges, dark mode, 26 languages.">
+  <meta name="keywords" content="sudoku, sudoku offline, classic sudoku, animal sudoku, zoodoku, sudoku for kids, number puzzle, logic game, brain training, offline game">
   <meta name="author" content="ELECTRAGLOBE PTY LTD">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://sudoku-offline-game.pages.dev/">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Sudoku Offline Classic Puzzle">
-  <meta property="og:description" content="Play classic Sudoku offline anytime with smart highlighting, hints, notes, and easy to expert difficulty levels.">
-  <meta property="og:url" content="https://sudoku-offline-game.pages.dev">
+  <meta property="og:title" content="Sudoku Offline Classic Puzzle – Classic Sudoku &amp; ZooDoku">
+  <meta property="og:description" content="Classic Sudoku and cute animal Sudoku in one free app. 100% offline, hints that teach, daily challenges.">
+  <meta property="og:url" content="https://sudoku-offline-game.pages.dev/">
   <meta property="og:image" content="https://sudoku-offline-game.pages.dev/assets/og-image.png">
   <meta property="og:site_name" content="Sudoku Offline Classic Puzzle">
-
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Sudoku Offline Classic Puzzle">
-  <meta name="twitter:description" content="Play classic Sudoku offline anytime with smart highlighting, hints, notes, and easy to expert difficulty levels.">
+  <meta name="twitter:description" content="Classic Sudoku and cute animal Sudoku in one free app. 100% offline.">
   <meta name="twitter:image" content="https://sudoku-offline-game.pages.dev/assets/og-image.png">
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#1565e8">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Sudoku Offline Classic Puzzle",
+    "operatingSystem": "iOS, Android",
+    "applicationCategory": "GameApplication",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Organization", "name": "ELECTRAGLOBE PTY LTD" }
+  }
+  </script>
 </head>
 <body>
 
-  <header class="header" id="top">
-    <div class="container header__inner">
-      <a href="index.html" class="logo" aria-label="Sudoku Offline Classic Puzzle home">
-        <img src="assets/logo.png" alt="Sudoku Offline Classic Puzzle logo" class="logo__img" width="40" height="40">
-        <span class="logo__text">Sudoku Offline Classic</span>
+  <header class="hdr" id="top">
+    <div class="wrap hdr__in">
+      <a href="index.html" class="brand" aria-label="Sudoku Offline Classic Puzzle home">
+        <img src="assets/icon.webp" alt="" width="40" height="40">
+        <span>Sudoku Offline</span>
       </a>
-
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="nav" id="mainNav" aria-label="Main navigation">
-        <a href="index.html" class="nav__link nav__link--active">Home</a>
-        <a href="#features" class="nav__link">Features</a>
-        <a href="#download" class="nav__link">Download</a>
-        <a href="privacy.html" class="nav__link">Privacy</a>
+      <button class="hdr__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="hdr__nav" id="mainNav" aria-label="Main navigation">
+        <a href="#games" class="nav__link">The games</a>
+        <a href="#classic" class="nav__link">Classic Sudoku</a>
+        <a href="#zoodoku" class="nav__link">ZooDoku</a>
+        <a href="#how" class="nav__link">How to play</a>
+        <a href="#faq" class="nav__link">FAQ</a>
         <a href="support.html" class="nav__link">Support</a>
+        <a href="#download" class="btn btn--sm nav__link">Download free</a>
       </nav>
-
-      <a href="#download" class="btn btn--gradient btn--sm header__cta">Download Now</a>
     </div>
   </header>
 
   <main>
 
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="container hero__grid">
-        <div class="hero__content">
-          <h1 id="hero-heading" class="hero__title">
-            Relax with Classic Sudoku, <span class="gradient-text">Anytime</span>
-          </h1>
-          <p class="hero__subtitle">
-            Play Sudoku offline with clean number puzzles, smart highlighting, hints, notes, and levels from easy to expert.
-          </p>
-
-          <div class="store-buttons">
-            <a href="https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803" class="store-btn store-btn--apple" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
-              <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="120" height="40">
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en" class="store-btn store-btn--google" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
-              <img src="assets/google-play-badge.png" alt="Get it on Google Play" width="155" height="60">
-            </a>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <span class="pill">New in 1.6.1 · Free · No Wi-Fi needed</span>
+          <h1>Two ways to play Sudoku.<br><span class="hl">Zero internet needed.</span></h1>
+          <p class="lead">Solve the <strong>classic 9×9 Sudoku</strong> you know and love, or try <strong>ZooDoku</strong>: the same rules, but with cute animals instead of numbers, as you travel through 20 cities around the world.</p>
+          <div class="stores">
+            <a href="https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803" target="_blank" rel="noopener" aria-label="Download on the App Store"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en" target="_blank" rel="noopener" aria-label="Get it on Google Play"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="169" height="65" class="gp"></a>
           </div>
-
-          <div class="chips">
-            <span class="chip"><span class="chip__dot"></span>100% Offline</span>
-            <span class="chip"><span class="chip__dot"></span>Easy to Expert</span>
-            <span class="chip"><span class="chip__dot"></span>Hints &amp; Notes</span>
-            <span class="chip"><span class="chip__dot"></span>Smart Highlighting</span>
-          </div>
+          <ul class="ticks">
+            <li>100% offline</li><li>Easy to Expert</li><li>Hints that teach</li><li>26 languages</li>
+          </ul>
         </div>
-
-        <div class="hero__visual">
-          <div class="hero__glow" aria-hidden="true"></div>
-          <div class="hero-carousel" id="heroCarousel" aria-label="App screenshots">
-            <div class="phone-frame">
-              <div class="phone-frame__screen phone-frame__screen--carousel">
-                <div class="hero-carousel__slide is-active">
-                  <img src="assets/screenshot-1.png" alt="Play Sudoku anywhere offline" width="280" height="498">
-                </div>
-                <div class="hero-carousel__slide">
-                  <img src="assets/screenshot-2.png" alt="Smart highlighting for calm focus" width="280" height="498">
-                </div>
-                <div class="hero-carousel__slide">
-                  <img src="assets/screenshot-3.png" alt="Train your brain daily" width="280" height="498">
-                </div>
-                <div class="hero-carousel__slide">
-                  <img src="assets/screenshot-4.png" alt="Notes, undo and hints" width="280" height="498">
-                </div>
-                <div class="hero-carousel__slide">
-                  <img src="assets/screenshot-5.png" alt="Offline Sudoku gameplay" width="280" height="498">
-                </div>
-              </div>
-            </div>
-            <div class="hero-carousel__dots" role="tablist" aria-label="Screenshot navigation">
-              <button type="button" class="hero-carousel__dot is-active" aria-label="Screenshot 1" aria-selected="true"></button>
-              <button type="button" class="hero-carousel__dot" aria-label="Screenshot 2" aria-selected="false"></button>
-              <button type="button" class="hero-carousel__dot" aria-label="Screenshot 3" aria-selected="false"></button>
-              <button type="button" class="hero-carousel__dot" aria-label="Screenshot 4" aria-selected="false"></button>
-              <button type="button" class="hero-carousel__dot" aria-label="Screenshot 5" aria-selected="false"></button>
-            </div>
-          </div>
+        <div class="hero__phones" aria-hidden="true">
+          <img class="ph ph--back" src="assets/shots/animals.webp" alt="" width="320" height="695">
+          <img class="ph ph--front" src="assets/shots/classic.webp" alt="" width="320" height="695">
         </div>
       </div>
     </section>
 
-    <section class="features" id="features" aria-labelledby="features-heading">
-      <div class="container">
-        <h2 id="features-heading" class="section-title">Everything you need for the perfect Sudoku experience</h2>
-
-        <div class="features__grid">
-          <article class="feature-card">
-            <div class="feature-card__icon feature-card__icon--purple" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 14c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="6" y1="22" x2="22" y2="6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
-            </div>
-            <h3 class="feature-card__title">Offline Sudoku</h3>
-            <p class="feature-card__text">Play without Wi-Fi or internet connection.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-card__icon feature-card__icon--orange" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="4" y="16" width="5" height="8" rx="1" fill="currentColor"/><rect x="11" y="10" width="5" height="14" rx="1" fill="currentColor"/><rect x="18" y="4" width="5" height="20" rx="1" fill="currentColor"/></svg>
-            </div>
-            <h3 class="feature-card__title">Difficulty Levels</h3>
-            <p class="feature-card__text">Choose Easy, Medium, Hard, or Expert.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-card__icon feature-card__icon--green" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="14" r="4" fill="currentColor"/></svg>
-            </div>
-            <h3 class="feature-card__title">Smart Highlighting</h3>
-            <p class="feature-card__text">Highlight matching numbers to spot patterns faster.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-card__icon feature-card__icon--blue" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 22l16-10-6-2-2-6-10 16z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-            </div>
-            <h3 class="feature-card__title">Hints &amp; Notes</h3>
-            <p class="feature-card__text">Use hints when stuck and notes to track possible numbers.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-card__icon feature-card__icon--indigo" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M10 14a4 4 0 018 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M8 20h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            </div>
-            <h3 class="feature-card__title">Undo &amp; Erase</h3>
-            <p class="feature-card__text">Fix mistakes quickly and keep the board clean.</p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-card__icon feature-card__icon--pink" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 4c-3 4-8 6-8 12a8 8 0 0016 0c0-6-5-8-8-12z" stroke="currentColor" stroke-width="2"/></svg>
-            </div>
-            <h3 class="feature-card__title">Relaxing Brain Training</h3>
-            <p class="feature-card__text">Enjoy a calm logic puzzle experience every day.</p>
-          </article>
+    <!-- TWO GAMES -->
+    <section class="sec" id="games">
+      <div class="wrap">
+        <h2 class="sec__title">One app, <span class="hl">two games</span></h2>
+        <p class="sec__sub">Open the app and choose from the home page. Your progress in each game is saved separately, so you can switch any time.</p>
+        <div class="duo">
+          <a href="#classic" class="duo__card duo__card--classic">
+            <div class="duo__grid" aria-hidden="true"><span>5</span><span>3</span><span></span><span>6</span><span class="on">7</span><span></span><span></span><span>9</span><span>8</span></div>
+            <h3>Classic Sudoku</h3>
+            <p>The original number puzzle. Four difficulty levels, notes, hints, a daily challenge and full statistics.</p>
+            <span class="duo__more">Learn more →</span>
+          </a>
+          <a href="#zoodoku" class="duo__card duo__card--zoo">
+            <div class="duo__grid duo__grid--zoo" aria-hidden="true"><span>🦘</span><span>🐨</span><span></span><span>🦊</span><span class="on">🐼</span><span></span><span></span><span>🦁</span><span>🐧</span></div>
+            <h3>ZooDoku</h3>
+            <p>Sudoku with animals. Travel the world city by city, meet the local animals and collect them all.</p>
+            <span class="duo__more">Learn more →</span>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="cta" id="download" aria-labelledby="cta-heading">
-      <div class="container">
-        <div class="cta__banner">
-          <h2 id="cta-heading" class="cta__title">
-            Start your next <span class="cta__highlight">Sudoku puzzle</span> today.
-          </h2>
-          <p class="cta__subtitle">Download Sudoku Offline Classic Puzzle and enjoy relaxing number puzzles anytime.</p>
-          <div class="store-buttons store-buttons--center">
-            <a href="https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803" class="store-btn store-btn--apple" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
-              <img src="assets/app-store-badge.svg" alt="Download on the App Store" width="120" height="40">
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en" class="store-btn store-btn--google" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
-              <img src="assets/google-play-badge.png" alt="Get it on Google Play" width="155" height="60">
-            </a>
+    <!-- CLASSIC -->
+    <section class="sec sec--tint" id="classic">
+      <div class="wrap split">
+        <div class="split__img"><img src="assets/shots/classic.webp" alt="Classic Sudoku board on Medium difficulty" width="320" height="695" loading="lazy" data-lightbox="assets/shots/classic.webp"></div>
+        <div class="split__text">
+          <span class="tag tag--blue">Game 1</span>
+          <h2>Classic Sudoku</h2>
+          <p>The timeless 9×9 logic puzzle. Fill every empty square so that each <strong>row</strong>, each <strong>column</strong> and each <strong>3×3 box</strong> contains the numbers 1 to 9 exactly once. No maths, just logic.</p>
+          <h3>Pick your level</h3>
+          <div class="levels">
+            <div><b>Easy</b><span>Lots of numbers given. Perfect for learning.</span></div>
+            <div><b>Medium</b><span>A relaxing challenge for every day.</span></div>
+            <div><b>Hard</b><span>You will need smart techniques.</span></div>
+            <div><b>Expert</b><span>For true Sudoku masters.</span></div>
           </div>
+          <h3>Tools that help</h3>
+          <ul class="list">
+            <li><b>Notes (pencil marks)</b> – write small candidate numbers in a square, or turn on <b>Auto notes</b> to fill them in for you.</li>
+            <li><b>Smart highlighting</b> – tap a number to light up every copy of it, plus its row, column and box.</li>
+            <li><b>Hints</b> – stuck? A hint reveals the next logical move.</li>
+            <li><b>Mistake check</b> – see straight away when a number breaks the rules.</li>
+            <li><b>Undo &amp; Erase</b> – step back or clear a square at any time.</li>
+            <li><b>Continue later</b> – leave mid-game and pick up exactly where you stopped.</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section class="experience" aria-labelledby="experience-heading">
-      <div class="container">
-        <div class="experience__card">
-          <div class="experience__visual" aria-hidden="true">
-            <div class="experience__board">
-              <div class="mini-sudoku">
-                <span class="hl">5</span><span>3</span><span></span>
-                <span>6</span><span class="hl">8</span><span></span>
-                <span></span><span></span><span class="hl">8</span>
-              </div>
-            </div>
+    <!-- ZOODOKU -->
+    <section class="sec sec--zoo" id="zoodoku">
+      <div class="wrap">
+        <div class="split split--rev">
+          <div class="split__img"><img src="assets/shots/animals.webp" alt="ZooDoku board with animals in Tokyo" width="320" height="695" loading="lazy" data-lightbox="assets/shots/animals.webp"></div>
+          <div class="split__text">
+            <span class="tag tag--green">Game 2 · New</span>
+            <h2>ZooDoku: Sudoku with animals</h2>
+            <p>ZooDoku uses exactly the same rules as Sudoku, but instead of the numbers 1–9 you place <strong>9 different animals</strong>. Each row, column and 3×3 box must contain every animal once. It's a friendly way for kids and beginners to learn Sudoku, and a fresh twist for experienced players.</p>
+            <ul class="list">
+              <li><b>Meet the animals</b> – before each puzzle, a card shows you the animals you'll be placing.</li>
+              <li><b>Tap to light up</b> – tap any animal to highlight all of its copies on the board.</li>
+              <li><b>Easy 3-step guide</b> – a short tutorial shows new players how to pick, place and check.</li>
+              <li><b>Bigger board</b> – large, clear animal pictures that are easy to tap on any phone.</li>
+            </ul>
           </div>
-          <div>
-            <h2 id="experience-heading" class="experience__title">Designed for calm focus</h2>
-            <p class="experience__text">
-              Sudoku Offline Classic Puzzle is designed for players who enjoy classic number puzzles, logic games, relaxing brain training, and simple offline gameplay. Whether you have a few minutes or want a deeper challenge, you can open the app and start solving instantly.
-            </p>
-          </div>
+        </div>
+
+        <div class="trio">
+          <figure class="trio__item">
+            <img src="assets/shots/travel.webp" alt="ZooDoku world tour: Tokyo, Japan" width="320" height="695" loading="lazy" data-lightbox="assets/shots/travel.webp">
+            <figcaption><b>Travel the world</b>Play through <b>20 cities</b> – Sydney, Tokyo, Cairo, Paris, Stockholm, Rio de Janeiro, New York, Cape Town, Mumbai, Reykjavik and more. Each city has its own picture, story and local animals.</figcaption>
+          </figure>
+          <figure class="trio__item">
+            <img src="assets/shots/collect.webp" alt="Puzzle completed: new animal collected" width="320" height="695" loading="lazy" data-lightbox="assets/shots/collect.webp">
+            <figcaption><b>Collect every animal</b>Finish a puzzle to unlock a new animal friend – kangaroos, koalas, snow monkeys, red foxes, cranes and many more. Each one comes with a fun fact you can read in your <b>Animal Collection</b>.</figcaption>
+          </figure>
+          <figure class="trio__item">
+            <img src="assets/shots/hints.webp" alt="Hint explaining why an animal fits" width="320" height="695" loading="lazy" data-lightbox="assets/shots/hints.webp">
+            <figcaption><b>Hints that teach</b>ZooDoku hints don't just give you the answer – they explain <i>why</i> the animal fits. Mistakes are explained too: you'll see which row, column or box already has that animal.</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="preview" id="preview" aria-labelledby="preview-heading">
-      <div class="container">
-        <h2 id="preview-heading" class="section-title">Simple, clean, and easy to play</h2>
-        <p class="section-subtitle">A polished Sudoku experience with smart tools, calm themes, and difficulty levels for every player.</p>
-
-        <div class="preview__grid">
-          <div class="preview-item">
-            <div class="phone-frame phone-frame--gallery">
-              <div class="phone-frame__screen">
-                <img src="assets/screenshot-1.png" alt="Classic Sudoku board gameplay" loading="lazy" width="240" height="520">
-              </div>
-            </div>
-            <p class="preview-item__caption">Classic Sudoku board</p>
-            <p class="preview-item__sub">Clean grid with clear numbers</p>
+    <!-- HOW TO PLAY -->
+    <section class="sec" id="how">
+      <div class="wrap">
+        <h2 class="sec__title">How to play <span class="hl">Sudoku</span></h2>
+        <p class="sec__sub">New to Sudoku? It takes one minute to learn. The rules are the same in both games.</p>
+        <div class="how">
+          <div class="how__step">
+            <span class="num">1</span>
+            <h3>Look at the grid</h3>
+            <p>The board has 9 rows, 9 columns and 9 boxes of 3×3. Some squares are already filled in.</p>
           </div>
-
-          <div class="preview-item">
-            <div class="phone-frame phone-frame--gallery">
-              <div class="phone-frame__screen">
-                <img src="assets/screenshot-4.png" alt="Notes and hints in Sudoku" loading="lazy" width="240" height="520">
-              </div>
-            </div>
-            <p class="preview-item__caption">Notes and hints</p>
-            <p class="preview-item__sub">Helpful tools when you need them</p>
+          <div class="how__step">
+            <span class="num">2</span>
+            <h3>One of each</h3>
+            <p>Every row, column and box needs each number 1–9 (or each of the 9 animals) exactly once. No repeats.</p>
           </div>
-
-          <div class="preview-item">
-            <div class="phone-frame phone-frame--gallery">
-              <div class="phone-frame__screen">
-                <img src="assets/screenshot-5.png" alt="Easy to expert difficulty levels" loading="lazy" width="240" height="520">
-              </div>
-            </div>
-            <p class="preview-item__caption">Easy to expert levels</p>
-            <p class="preview-item__sub">Progress at your own pace</p>
+          <div class="how__step">
+            <span class="num">3</span>
+            <h3>Use logic</h3>
+            <p>Find a square where only one answer fits. Each correct answer makes the next one easier. No guessing needed!</p>
           </div>
+        </div>
+        <div class="example">
+          <div class="mini" aria-label="Example row with one square missing">
+            <span>1</span><span>2</span><span>3</span><span>4</span><span class="q">?</span><span>6</span><span>7</span><span>8</span><span>9</span>
+          </div>
+          <p><b>Example:</b> this row already has 1, 2, 3, 4, 6, 7, 8 and 9. The only number missing is <b>5</b>, so the empty square must be 5.</p>
         </div>
       </div>
     </section>
 
-    <section class="gallery" id="gallery" aria-labelledby="gallery-heading">
-      <div class="container">
-        <h2 id="gallery-heading" class="section-title">App gallery</h2>
-        <p class="section-subtitle">Explore screenshots from Sudoku Offline Classic Puzzle. Tap any image to view it larger.</p>
+    <!-- MORE FEATURES -->
+    <section class="sec sec--tint" id="features">
+      <div class="wrap">
+        <h2 class="sec__title">Made for <span class="hl">every player</span></h2>
+        <div class="feats">
+          <div class="feat"><span class="ico">✈️</span><h3>100% offline</h3><p>Play on a plane, train or holiday. No Wi-Fi or mobile data needed.</p></div>
+          <div class="feat"><span class="ico">📅</span><h3>Daily challenge</h3><p>A new puzzle every day. Keep your streak going, earn trophies and fill your calendar.</p></div>
+          <div class="feat"><span class="ico">📊</span><h3>Statistics</h3><p>Best times, games won and streaks for every difficulty level.</p></div>
+          <div class="feat"><span class="ico">🏆</span><h3>Achievements</h3><p>Unlock badges as you play, from your first win to expert milestones.</p></div>
+          <div class="feat"><span class="ico">🌙</span><h3>Dark &amp; light mode</h3><p>Switch with one tap inside any game. Easy on your eyes, day and night.</p></div>
+          <div class="feat"><span class="ico">🌍</span><h3>26 languages</h3><p>English, Arabic, Chinese, Spanish, French, German, Japanese, Hindi and many more.</p></div>
+          <div class="feat"><span class="ico">👨‍👩‍👧</span><h3>For all ages</h3><p>ZooDoku for kids and beginners, Expert Sudoku for seasoned solvers.</p></div>
+          <div class="feat"><span class="ico">💾</span><h3>Auto save</h3><p>Close the app any time. Your game is saved and waiting for you.</p></div>
+        </div>
+      </div>
+    </section>
 
-        <div class="gallery__grid">
-          <figure class="gallery__item">
-            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-1.png" data-alt="Play Sudoku anywhere offline" role="button" tabindex="0" aria-label="View screenshot: Play anywhere">
-              <div class="phone-frame__screen">
-                <img src="assets/screenshot-1.png" alt="Play Sudoku anywhere offline" loading="lazy" width="240" height="520">
-              </div>
-            </div>
-            <figcaption>Play anywhere</figcaption>
-          </figure>
+    <!-- GALLERY -->
+    <section class="sec" id="gallery">
+      <div class="wrap">
+        <h2 class="sec__title">Take a <span class="hl">look inside</span></h2>
+        <p class="sec__sub">Tap any screenshot to see it larger.</p>
+      </div>
+      <div class="gallery">
+        <img src="assets/shots/classic.webp" alt="Classic Sudoku" loading="lazy" data-lightbox="assets/shots/classic.webp" tabindex="0">
+        <img src="assets/shots/travel.webp" alt="Travel the world" loading="lazy" data-lightbox="assets/shots/travel.webp" tabindex="0">
+        <img src="assets/shots/animals.webp" alt="Sudoku with cute animals" loading="lazy" data-lightbox="assets/shots/animals.webp" tabindex="0">
+        <img src="assets/shots/collect.webp" alt="Collect every animal" loading="lazy" data-lightbox="assets/shots/collect.webp" tabindex="0">
+        <img src="assets/shots/hints.webp" alt="Hints that teach" loading="lazy" data-lightbox="assets/shots/hints.webp" tabindex="0">
+        <img src="assets/shots/daily.webp" alt="Daily challenge" loading="lazy" data-lightbox="assets/shots/daily.webp" tabindex="0">
+        <img src="assets/shots/dark.webp" alt="Dark mode" loading="lazy" data-lightbox="assets/shots/dark.webp" tabindex="0">
+      </div>
+    </section>
 
-          <figure class="gallery__item">
-            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-2.png" data-alt="Smart highlighting for calm focus" role="button" tabindex="0" aria-label="View screenshot: Smart highlighting">
-              <div class="phone-frame__screen">
-                <img src="assets/screenshot-2.png" alt="Smart highlighting for calm focus" loading="lazy" width="240" height="520">
-              </div>
-            </div>
-            <figcaption>Smart highlighting</figcaption>
-          </figure>
+    <!-- FAQ -->
+    <section class="sec sec--tint" id="faq">
+      <div class="wrap faq">
+        <h2 class="sec__title">Questions &amp; <span class="hl">answers</span></h2>
+        <details><summary>Is the game free?</summary><p>Yes. Sudoku Offline Classic Puzzle is free to download and play. It shows ads to support development.</p></details>
+        <details><summary>Does it really work without internet?</summary><p>Yes. Both Classic Sudoku and ZooDoku work completely offline. Ads and anonymous statistics are only sent when your phone is online.</p></details>
+        <details><summary>What is ZooDoku?</summary><p>ZooDoku is Sudoku with animals. The rules are exactly the same as Sudoku, but you place 9 animals instead of the numbers 1–9. You travel through 20 cities, unlock the animals of each place and learn a fun fact about each one.</p></details>
+        <details><summary>Is it good for kids?</summary><p>Yes. ZooDoku's animal pictures, 3-step guide and hints that explain each move make it a great first Sudoku for children. Adults can play Classic Sudoku up to Expert level.</p></details>
+        <details><summary>Will I lose my progress if I close the app?</summary><p>No. Your current game, statistics, streaks and animal collection are saved on your device automatically.</p></details>
+        <details><summary>Which devices are supported?</summary><p>iPhone and iPad (App Store) and Android phones and tablets (Google Play).</p></details>
+        <details><summary>How do I contact you?</summary><p>Email us at <a href="mailto:Info@lwf.my">Info@lwf.my</a> or visit the <a href="support.html">Support page</a>.</p></details>
+      </div>
+    </section>
 
-          <figure class="gallery__item">
-            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-3.png" data-alt="Train your brain daily" role="button" tabindex="0" aria-label="View screenshot: Brain training">
-              <div class="phone-frame__screen">
-                <img src="assets/screenshot-3.png" alt="Train your brain daily" loading="lazy" width="240" height="520">
-              </div>
-            </div>
-            <figcaption>Brain training</figcaption>
-          </figure>
-
-          <figure class="gallery__item">
-            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-4.png" data-alt="Notes, undo and hints" role="button" tabindex="0" aria-label="View screenshot: Notes and hints">
-              <div class="phone-frame__screen">
-                <img src="assets/screenshot-4.png" alt="Notes, undo and hints" loading="lazy" width="240" height="520">
-              </div>
-            </div>
-            <figcaption>Notes &amp; hints</figcaption>
-          </figure>
-
-          <figure class="gallery__item">
-            <div class="phone-frame phone-frame--gallery" data-lightbox="assets/screenshot-5.png" data-alt="Offline Sudoku gameplay" role="button" tabindex="0" aria-label="View screenshot: Offline play">
-              <div class="phone-frame__screen">
-                <img src="assets/screenshot-5.png" alt="Offline Sudoku gameplay" loading="lazy" width="240" height="520">
-              </div>
-            </div>
-            <figcaption>Offline play</figcaption>
-          </figure>
+    <!-- CTA -->
+    <section class="cta" id="download">
+      <div class="wrap cta__in">
+        <img src="assets/icon.webp" alt="Sudoku Offline Classic Puzzle app icon" width="96" height="96" class="cta__icon">
+        <h2>Start your next puzzle today</h2>
+        <p>Free on iPhone, iPad and Android. Classic Sudoku and ZooDoku in one app.</p>
+        <div class="stores stores--center">
+          <a href="https://apps.apple.com/app/sudoku-puzzle-offline-classic/id6782259803" target="_blank" rel="noopener" aria-label="Download on the App Store"><img src="assets/app-store-badge.svg" alt="Download on the App Store" width="150" height="50"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.sudoku.offline.puzzle&hl=en" target="_blank" rel="noopener" aria-label="Get it on Google Play"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="169" height="65" class="gp"></a>
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <img src="assets/logo.png" alt="" width="36" height="36">
-        <span>Sudoku Offline Classic</span>
-      </div>
-      <div class="footer__info">
+  <footer class="ftr">
+    <div class="wrap ftr__in">
+      <div>
+        <a href="index.html" class="brand brand--light"><img src="assets/icon.webp" alt="" width="36" height="36"><span>Sudoku Offline Classic</span></a>
         <p>&copy; 2026 ELECTRAGLOBE PTY LTD. All rights reserved.</p>
-        <p>Developer: <a href="https://electraglobe.com/" target="_blank" rel="noopener noreferrer">ELECTRAGLOBE PTY LTD</a></p>
         <p>15/218 Padstow Rd, Eight Mile Plains QLD 4113, Australia</p>
-        <p class="footer__love">Developed with love in New Farm, Brisbane, Australia</p>
+        <p>Developed with love in New Farm, Brisbane, Australia</p>
       </div>
-      <div class="footer__links">
+      <nav class="ftr__links" aria-label="Footer">
         <a href="privacy.html">Privacy Policy</a>
         <a href="support.html">Support</a>
+        <a href="download.html">Download link</a>
         <a href="mailto:Info@lwf.my">Info@lwf.my</a>
-      </div>
+      </nav>
     </div>
   </footer>
 
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot preview">
-    <button class="lightbox__close" id="lightboxClose" aria-label="Close preview">&times;</button>
-    <img class="lightbox__img" id="lightboxImg" src="" alt="">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+    <img id="lightboxImg" src="" alt="">
   </div>
 
   <script src="script.js"></script>
